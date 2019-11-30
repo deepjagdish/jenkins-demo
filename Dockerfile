@@ -1,2 +1,4 @@
-FROM deepjagdishdocker/doitliberty
+FROM httpd
+COPY index.html /usr/local/apache2/htdocs/
+COPY my.html  /usr/local/apache2/htdocs/
 
